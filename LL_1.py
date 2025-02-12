@@ -21,7 +21,7 @@ class LinkedList:
             self.tail = new_node
         return True
 
-    def middle(self):
+    def find_middle_node(self):
         slow = self.head     # INITIALIZE slow and fast pointers to head of the linked list
         fast = self.head
         while fast and fast.next:    # WHILE fast is not None and fast.next is not None:
