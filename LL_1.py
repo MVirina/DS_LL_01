@@ -28,13 +28,6 @@ class LinkedList:
             slow = slow.next         # MOVE slow pointer one step (slow = slow.next)
             fast = fast.next.next    # MOVE fast pointer two steps (fast = fast.next.next)
         return slow    # RETURN slow pointer (middle node of the linked list)   
-    
-
-    # WRITE FIND_MIDDLE_NODE METHOD HERE # 
-    #                                    #
-    #                                    #
-    #                                    #
-    ######################################
 
 
 
